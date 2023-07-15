@@ -12,14 +12,14 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/aquapakafurnituremod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"net.aquapaka.furnituremod.AquapakaFurnitureMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"net.aquapaka.furnituremod.AquapakaFurnitureModClient"
 		]
 	},
 	"mixins": [
